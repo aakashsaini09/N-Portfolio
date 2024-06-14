@@ -18,6 +18,7 @@ model User{
   password String
   firstname String?
   lastname String?
+  todos Todo[]
 }
 model Todo{
   id Int @id @default(autoincrement())
@@ -25,4 +26,5 @@ model Todo{
   description String
   done Boolean @default(false)
   userId Int 
+  user User @relation(fields: [userId], references: [id])
 }

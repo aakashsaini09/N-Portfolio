@@ -1,12 +1,9 @@
-import FourthPage from "./_comp/FourthPage";
 import Navbar from "./_comp/Navbar";
 import SecondPage from "./_comp/SecondPage";
 import ThirdPage from "./_comp/ThirdPage";
-// import GlobeDemo from "./comp/Globe";
-import Mashrume from "./comp/Mashrume";
 export default function Home() {
   return (
-    <main className="h-[200vh] w-full bg-[#d9d9dc]">
+    <main className="h-[200vh] w-full bg-black">
 
       {/* <div className="min-h-[100vh] w-full">
         <div className="absolute left-6 top-[20vh] font-extralight text-8xl text-slate-800">Hi! I'm</div>
@@ -14,7 +11,7 @@ export default function Home() {
         <Mashrume/>
       </div> */}
 
-      <div className="second bg-[#d9d9dc]">
+      <div className="second bg-black">
         <SecondPage/>
       </div>
 

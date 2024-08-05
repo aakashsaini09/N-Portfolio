@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <main className="h-[200vh] w-full bg-[#d9d9dc]">
 
-      <div className="min-h-[100vh] w-full">
+      {/* <div className="min-h-[100vh] w-full">
         <div className="absolute left-6 top-[20vh] font-extralight text-8xl text-slate-800">Hi! I'm</div>
         <div className="absolute left-6 top-[33vh] font-extrabold text-slate-800 text-7xl font-serif">Aakash Saini</div>
         <Mashrume/>
-      </div>
+      </div> */}
 
       <div className="second bg-[#d9d9dc]">
         <SecondPage/>

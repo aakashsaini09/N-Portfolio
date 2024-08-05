@@ -1,4 +1,4 @@
-import Dock from "../comp/Dock"
+import Dock from "../components/Dock"
 
 const Navbar = () => {
   return (

@@ -1,4 +1,5 @@
 import Image from "next/image"
+// import '../'
 import forntend from "../assets/frontend.png"
 import { LampDemo } from "../components/ui/lamp"
 import { StickyScroll } from "../components/ui/sticky-scroll-reveal"
@@ -40,8 +41,8 @@ const TimeLine = () => {
     <>
     <div className="bg-slate-800 w-full h-auto flex items-center flex-col">
       <LampDemo/>
-      <div className="w-full bg-slate-950 flex justify-center items-center">
-        <div className="w-[80vw] flex justify-center items-center border-2 border-purple-500 h-auto">
+      <div className="w-full bg-slate-950 flex justify-center">
+        <div className="w-[100vw] flex justify-center no-scrollbar items-center h-auto">
           <StickyScroll content={content}/>
         </div>
       </div>

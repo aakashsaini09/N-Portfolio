@@ -2,36 +2,38 @@ import Navbar from "./_comp/Navbar";
 import Hero from "./_comp/Hero";
 import TimeLine from "./_comp/TimeLine";
 import { HoverEffect } from "./components/ui/card-hover-effect";
+import image from "./assets/frontend.png"
+import Image from "next/image";
 export default function Home() {
   const content= [
     {
-      title: "study",
-      description: "I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer",
+      title: "Node-JS",
+      description: "",
+      link: "https://www.google.com"
+    },
+    {
+      title: "React-JS",
+      description: "",
+      link: "https://www.google.com"
+    },
+    {
+      title: "MongoDB",
+      description: "",
       link: "https://www.google.com"
     },
     {
       title: "study",
-      description: "I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer",
+      description: "",
       link: "https://www.google.com"
     },
     {
       title: "study",
-      description: "I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer",
+      description: "",
       link: "https://www.google.com"
     },
     {
       title: "study",
-      description: "I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer",
-      link: "https://www.google.com"
-    },
-    {
-      title: "study",
-      description: "I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer",
-      link: "https://www.google.com"
-    },
-    {
-      title: "study",
-      description: "I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer I'm a pasonite Full Stack developer",
+      description: "",
       link: "https://www.google.com"
     },
     
@@ -41,9 +43,16 @@ export default function Home() {
     <main className="h-[200vh] w-full bg-black">
       <Hero/>
       <TimeLine/>
-      <HoverEffect items={content}/>
-     <div className="bg-orange-500 h-[100vh]"></div>
-      <div className="fixed w-full m-auto bottom-0">
+      <div className="bg-gray-950 px-20 gap-6">
+        <HoverEffect items={content}/>
+      </div>
+
+
+
+
+      
+     <div className="bg-gray-950 h-[100vh]"></div>
+      <div className="fixed w-full m-auto bottom-0 z-50">
         <Navbar/>
       </div>
     </main>

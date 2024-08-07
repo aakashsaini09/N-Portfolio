@@ -48,10 +48,8 @@ export default function Home() {
       </div>
 
 
-
-
-      
      <div className="bg-gray-950 h-[100vh]"></div>
+
       <div className="fixed w-full m-auto bottom-0 z-50">
         <Navbar/>
       </div>

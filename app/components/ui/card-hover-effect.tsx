@@ -1,7 +1,9 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
+import logo from '../../assets/frontend.png'
 import { useState } from "react";
 
 export const HoverEffect = ({items,className,}: {
@@ -61,9 +63,9 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4", className)}>
-      {children}
-    </h4>
+    <Image src={logo} alt="not found" className={cn("text-zinc-100 font-bold tracking-wide mt-4 mx-auto flex justify-center text-center", className)}>
+      {/* {children} */}
+    </Image>
   );
 };
 export const CardDescription = ({

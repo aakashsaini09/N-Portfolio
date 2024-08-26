@@ -38,6 +38,7 @@ export default function Home() {
       img: '/codeing.png'
     },
   ]
+  // https://drive.google.com/file/d/1EMl1e9Cc2498J7h4PyLkmLb5Gbrph3fP/view?usp=sharing
   return (
     <main className="h-[200vh] w-full bg-[#131425]">
       <Hero/>
@@ -50,22 +51,22 @@ export default function Home() {
 
       {/* Resume Download button */}
       <div className="w-full min-h-20 flex justify-center items-center my-12">
-        <HoverBorderGradient clockwise={true} duration={1} children={"Download Resume"} />
+        <HoverBorderGradient clockwise={true} duration={1} children={"Explore my Work"} />
       </div>
 
       <div className="px-16 md:px-28 bg-[#131425] py-20 pb-56">
         <WobbleCard/>
       </div>
+      {/* skill icons */}
+      <Skills/>
       {/* Project Section */}
-      <div className="px-16 md:px-28 gap-6 min-h-[50vh] bg-[#131425]">
+      <div id="projects" className="px-16 md:px-28 gap-1 min-h-[50vh] bg-[#131425]">
         <div className="projects min-h-36 w-full bg-gray-800">
           <h2 className="relative ml-10 top-16 text-white font-bold font-sans text-9xl">Projects</h2>
         </div>
         <HoverEffect items={content}/>
       </div>
 
-      {/* skill icons */}
-      <Skills/>
 
 
 

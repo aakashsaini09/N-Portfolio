@@ -69,31 +69,19 @@ export function HoverBorderGradient({
       {...props}
     >
       <div
-        className={cn(
-          "w-auto text-white z-10 bg-black px-6 py-3 rounded-2xl flex text-xl",
-          className 
-        )}
-      >
-        <a href="https://drive.google.com/file/d/1EMl1e9Cc2498J7h4PyLkmLb5Gbrph3fP/view?usp=sharing" target="_blank">{children}</a>
+        className={cn("w-auto text-white z-10 bg-black px-6 py-3 rounded-2xl flex text-xl", className )} >
+        <a href="https://drive.google.com/file/d/1EMl1e9Cc2498J7h4PyLkmLb5Gbrph3fP/view?usp=sharing" className="">{children}</a>
         <div className="ml-2 text-white font-bold text-xl flex items-center"><FaLocationArrow/></div></div>
       <motion.div
-        className={cn(
-          "flex-none inset-0 overflow-hidden absolute z-0 rounded-2xl"
-        )}
-        style={{
-          filter: "blur(2px)",
-          position: "absolute",
-          width: "100%",
-          height: "100%",
-        }}
+        className={cn( "flex-none inset-0 overflow-hidden absolute z-0 rounded-2xl"  )}
+        style={{filter: "blur(2px)",position: "absolute", width: "100%",height: "100%",}}
         initial={{ background: movingMap[direction] }}
         animate={{
           background: hovered
             ? [movingMap[direction], highlight]
             : movingMap[direction],
         }}
-        transition={{ ease: "linear", duration: duration ?? 1 }}
-      />
+        transition={{ ease: "linear", duration: duration ?? 1 }}/>
       <div className="bg-black absolute z-1 flex-none inset-[2px] rounded-2xl" />
     </Tag>
   );

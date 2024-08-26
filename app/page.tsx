@@ -4,6 +4,7 @@ import { HoverEffect } from "./components/ui/card-hover-effect";
 import { HoverBorderGradient } from "./components/ui/hover-border-gradient";
 import ScrollBasedVelocityDemo from "./components/scrollToMoveTxt";
 import WobbleCard  from "./components/WobbleCard";
+import Skills from "./_comp/Skills";
 export default function Home() {
   const content= [
     {
@@ -62,6 +63,11 @@ export default function Home() {
         </div>
         <HoverEffect items={content}/>
       </div>
+
+      {/* skill icons */}
+      <Skills/>
+
+
 
 
      <div className="bg-gray-950 h-[100vh]"></div>

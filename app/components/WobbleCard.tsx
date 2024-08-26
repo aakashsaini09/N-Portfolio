@@ -14,7 +14,7 @@ export default function WobbleCardDemo() {
             My Tech Stack
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            Next-JS, MERN, Typescript, Prisma, Tailwind CSS, Chakra UI, Magic UI
+            Next-JS, Typescript, MERN, Prisma, Tailwind CSS, Chakra UI
           </p>
         </div>
         <Image

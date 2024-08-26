@@ -18,7 +18,7 @@ export const HoverEffect = ({items,className,}: {
         <Link href={item?.link} key={item?.link} className="relative group flex flex-wrap p-2 h-full w-full"onMouseEnter={() => setHoveredIndex(idx)}onMouseLeave={() => setHoveredIndex(null)}>
           <AnimatePresence>
             {hoveredIndex === idx && (
-              <motion.span className="absolute inset-0 h-full w-full bg-gray-800 dark:bg-slate-800/[0.8] block shadow-md shadow-gray-800 rounded-3xl" layoutId="hoverBackground" initial={{ opacity: 0 }}
+              <motion.span className="absolute inset-0 h-full w-full bg-gray-700 dark:bg-slate-800/[0.8] block shadow-md shadow-gray-800 rounded-3xl" layoutId="hoverBackground" initial={{ opacity: 0 }}
                 animate={{opacity: 1, transition: { duration: 0.15 },}} exit={{opacity: 0,transition: { duration: 0.15, delay: 0.2 }, }}/>
             )}
           </AnimatePresence>

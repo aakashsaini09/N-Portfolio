@@ -10,7 +10,7 @@ export default function Home() {
       title: "QuillVibes",
       description: "Write or generate blogs with AI assistance and publish them.",
       link: "https://quill-vibes.vercel.app/",
-      img: '/quillvibes.png'
+      img: '/ib.jpg'
     },
     {
       title: "Github Profile",
@@ -26,28 +26,22 @@ export default function Home() {
     },
     {
       title: "ToolsHub",
-      description: "",
+      description: "Get access of multiple usefull tools at one place for free.",
       link: "https://mini-tool.netlify.app/",
-      img: '/frontend.png'
+      img: '/toolshub.png'
     },
     {
-      title: "study",
-      description: "",
-      link: "https://www.google/fef.com",
-      img: '/frontend.png'
+      title: "CodeCollab",
+      description: "Write code with your friends in real-time. Work on same Project Together.",
+      link: "https://github.com/aakashsaini09/CodeCollab",
+      img: '/codeing.png'
     },
-    {
-      title: "study",
-      description: "",
-      link: "https://www.google/fds.com",
-      img: '/frontend.png'
-    }, 
   ]
   return (
     <main className="h-[200vh] w-full bg-[#131425]">
       <Hero/>
       {/* ScrollMoveText */}
-      <div className="w-full px-28 gap-6">
+      <div className="w-full px-16 md:px-28 gap-6">
         <ScrollBasedVelocityDemo/>
         <ScrollBasedVelocityDemo/>
       </div>
@@ -58,11 +52,11 @@ export default function Home() {
         <HoverBorderGradient clockwise={true} duration={1} children={"Download Resume"} />
       </div>
 
-      <div className="px-28 bg-[#131425] py-20 pb-56">
+      <div className="px-16 md:px-28 bg-[#131425] py-20 pb-56">
         <WobbleCard/>
       </div>
       {/* Project Section */}
-      <div className=" px-28 gap-6 min-h-[50vh] bg-[#131425]">
+      <div className="px-16 md:px-28 gap-6 min-h-[50vh] bg-[#131425]">
         <div className="projects min-h-36 w-full bg-gray-800">
           <h2 className="relative ml-10 top-16 text-white font-bold font-sans text-9xl">Projects</h2>
         </div>

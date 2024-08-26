@@ -74,7 +74,7 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-      <div className="text-zinc-100 font-bold tracking-wide mt-8  text-2xl mx-auto flex ml-8 font-mono">
+      <div className="text-zinc-100 font-bold tracking-wide mt-8  text-xl mx-auto flex ml-8 font-sans">
         {children} <div className="ml-2 text-white font-bold text-xl flex items-center"><FaLocationArrow/></div>
       </div>
   );

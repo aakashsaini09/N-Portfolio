@@ -5,6 +5,8 @@ import { HoverBorderGradient } from "./components/ui/hover-border-gradient";
 import ScrollBasedVelocityDemo from "./components/scrollToMoveTxt";
 import WobbleCard  from "./components/WobbleCard";
 import Skills from "./_comp/Skills";
+import End from "./_comp/End";
+import Footer from "./_comp/Footer";
 export default function Home() {
   const content= [
     {
@@ -51,7 +53,7 @@ export default function Home() {
 
       {/* Resume Download button */}
       <div className="w-full min-h-20 flex justify-center items-center my-12">
-        <HoverBorderGradient clockwise={true} duration={1} children={"Explore my Work"} />
+        <HoverBorderGradient url="https://drive.google.com/file/d/1EMl1e9Cc2498J7h4PyLkmLb5Gbrph3fP/view?usp=sharing" clockwise={true} duration={1} children={"Explore my Work"} />
       </div>
 
       <div className="px-16 md:px-28 bg-[#131425] py-20 pb-56">
@@ -68,11 +70,12 @@ export default function Home() {
       </div>
 
 
+<End/>
+<div className="w-full min-h-20 flex justify-center items-center py-12 bg-[#131425]">
+    <HoverBorderGradient url="https://www.linkedin.com/in/-aakashsaini/" className="text-base" clockwise={true} duration={0.5} children={"Let's get in touch"} />
+</div>
 
-
-
-     <div className="bg-gray-950 h-[100vh]"></div>
-
+     <Footer/>
       <div className="fixed w-full m-auto bottom-0 z-50">
         <Navbar/>
       </div>

@@ -47,51 +47,51 @@ export default function Home() {
       title: "2021-2024",
       content: (
         <div>
-          <h3 className="font-bold text-3xl pt-3 pb-1">Completed my Bachelor's Degree (BCA)</h3>
-          <p className="text-slate-400 pt-3 pb-1">I have done my Bachelor's in Computer Degree from Govt College Jind, Haryana. During that time I have </p>
-          <p className="pb-4 text-slate-400">
-          ✅ Card grid component <br />
-          ✅ Startup template Aceternity <br />
-          ✅ Random file upload lol <br />
-</p>
-          {/* <div className="w-72 h-52 flex justify-center items-center overflow-hidden"> */}
-            <img className="" src="/bca.jpg" alt="Project Image" />
-          {/* </div> */}
-          {/* <img src="/b1.png" alt="Project Image" />
-          <img src="/b5.webp" alt="Project Image" /> */}
+          <h3 className="font-bold text-3xl pt-3">Completed My Bachelor's Degree (BCA)</h3>
+          {/* <p className="text-slate-400 pt-1 pb-5 pr-10">I completed my Bachelor's in Computer Applications from the Department of Information and Computer Sciences in Haryana, India, and graduated in Spring 2024.</p> */}
+          <p className="text-slate-400 pt-1 pb-5 pr-10">⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, AP, AI etc.<br />
+            ⚡ Apart from this, I have done courses on Full Stack Development, DevOps and Cloud Computing.
+          </p>
+            <img className="filter grayscale hover:grayscale-0" src="/bca.jpg" alt="Project Image" />
         </div>
       ),
     },
     {
-      title: "During 2023",
+      title: "2023",
       content: (
         <div>
-          <h3 className="font-bold text-5xl pt-3 pb-1 font-sans text-white">Done My first Internship</h3>
-          <p className="text-slate-500 pt-1 pb-7">I have done my Bachelor's in Computer Degree from Govt College Jind, Haryana. During that time I have Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, dicta eum unde eveniet enim corrupti voluptate natus nisi animi illo velit odit fugit excepturi soluta nesciunt maiores laborum at iste eaque sequi est ipsum quisquam quod esse. Neque, quae consequatur.</p>
+          <h3 className="font-bold text-3xl pt-3 pb-1 font-sans text-white">Worked as a Front-End Developer Intern (3 Months)</h3>
+          <p className="text-slate-500 pt-1 pb-1">Skils: React-Vite, Tailwind-CSS, JavaScript, Material-UI, Figma</p>
+          <p className="pb-4 text-slate-400">
+            ✅ Designed and built the company website from start. <br />
+            ✅ Worked in a team of 4 developers. <br />
+            ✅ Deployed and managed the website. <br />
+          </p>
           <div className="w-full flex justify-center items-center">
-            <img src="/internship.jpg" alt="Project Image" />
+            <img className="filter grayscale hover:grayscale-0" src="/internship.jpg" alt="Project Image" />
           </div>
         </div>
       ),
     },
     {
-      title: "Early 2024",
+      title: "2024",
       content: (
         <div>
-          <h3 className="font-bold text-3xl py-3">This is a project that I have been working on.</h3>
-          <img src="/ib.jpg" alt="Project Image" />
+          <h3 className="font-bold text-3xl pt-3 pb-1 font-sans text-white">Contributing to Open Source and Learning New Skills</h3>
+          <p className="text-slate-500 pb-3">Learning DevOps and advanced web development topics, such as system design, server and database scaling, Kubernetes. Additionally, I am exploring Web3 technologies, including Solana, Hardhat, Solidity, smart contracts, and Chainlink.</p>
+          <img className="filter grayscale hover:grayscale-0" src="/last.jpg" alt="Project Image" />
         </div>
       ),
     },
-    {
-      title: "2024 End",
-      content: (
-        <div>
-          <h3 className="font-bold text-3xl py-3">This is a project that I have been working on.</h3>
-          <img src="/ib.jpg" alt="Project Image" />
-        </div>
-      ),
-    },
+    // {
+    //   title: "2024 End",
+    //   content: (
+    //     <div>
+    //       <h3 className="font-bold text-3xl py-3">This is a project that I have been working on.</h3>
+    //       <img src="/ib.jpg" alt="Project Image" />
+    //     </div>
+    //   ),
+    // },
   ];
   // https://drive.google.com/file/d/1EMl1e9Cc2498J7h4PyLkmLb5Gbrph3fP/view?usp=sharing
   return (

@@ -47,32 +47,44 @@ export default function Home() {
       title: "2021-2024",
       content: (
         <div>
-          <h3 className="font-bold text-3xl py-3">Completed my Bachelor's Degree (BCA)</h3>
-          <p className="text-slate-300 py-3">I have done my Bachelor's in Computer Degree from Govt College Jind, Haryana. During that time I have </p>
-          <div className="w-72 h-52 flex justify-center items-center overflow-hidden">
-            <img className="w-auto h-auto min-w-72 min-h-72" src="/ib.jpg" alt="Project Image" />
-          </div>
+          <h3 className="font-bold text-3xl pt-3 pb-1">Completed my Bachelor's Degree (BCA)</h3>
+          <p className="text-slate-400 pt-3 pb-1">I have done my Bachelor's in Computer Degree from Govt College Jind, Haryana. During that time I have </p>
+          <p className="pb-4 text-slate-400">
+          ✅ Card grid component <br />
+          ✅ Startup template Aceternity <br />
+          ✅ Random file upload lol <br />
+</p>
+          {/* <div className="w-72 h-52 flex justify-center items-center overflow-hidden"> */}
+            <img className="" src="/bca.jpg" alt="Project Image" />
+          {/* </div> */}
           {/* <img src="/b1.png" alt="Project Image" />
           <img src="/b5.webp" alt="Project Image" /> */}
         </div>
       ),
     },
     {
-      title: "2022",
+      title: "During 2023",
       content: (
         <div>
-          <h3 className="font-bold text-3xl py-3">This is a project that I have been working on.</h3>
-          <div className="grid grid-cols-2 gap-4">
-            <img src="/b1.jpg" alt="Project Image" />
-            <img src="/toolshub.png" alt="Project Image" />
-            <img src="/toolshub.png" alt="Project Image" />
-            <img src="/coin.png" alt="Project Image" />
+          <h3 className="font-bold text-5xl pt-3 pb-1 font-sans text-white">Done My first Internship</h3>
+          <p className="text-slate-500 pt-1 pb-7">I have done my Bachelor's in Computer Degree from Govt College Jind, Haryana. During that time I have Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, dicta eum unde eveniet enim corrupti voluptate natus nisi animi illo velit odit fugit excepturi soluta nesciunt maiores laborum at iste eaque sequi est ipsum quisquam quod esse. Neque, quae consequatur.</p>
+          <div className="w-full flex justify-center items-center">
+            <img src="/internship.jpg" alt="Project Image" />
           </div>
         </div>
       ),
     },
     {
-      title: "2023",
+      title: "Early 2024",
+      content: (
+        <div>
+          <h3 className="font-bold text-3xl py-3">This is a project that I have been working on.</h3>
+          <img src="/ib.jpg" alt="Project Image" />
+        </div>
+      ),
+    },
+    {
+      title: "2024 End",
       content: (
         <div>
           <h3 className="font-bold text-3xl py-3">This is a project that I have been working on.</h3>

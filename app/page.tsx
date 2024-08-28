@@ -7,6 +7,7 @@ import WobbleCard  from "./components/WobbleCard";
 import Skills from "./_comp/Skills";
 import End from "./_comp/End";
 import Footer from "./_comp/Footer";
+import { Timeline } from "./components/ui/timeline";
 export default function Home() {
   const content= [
     {
@@ -40,6 +41,46 @@ export default function Home() {
       img: '/codeing.png'
     },
   ]
+  
+  const timelineData = [
+    {
+      title: "2021-2024",
+      content: (
+        <div>
+          <h3 className="font-bold text-3xl py-3">Completed my Bachelor's Degree (BCA)</h3>
+          <p className="text-slate-300 py-3">I have done my Bachelor's in Computer Degree from Govt College Jind, Haryana. During that time I have </p>
+          <div className="w-72 h-52 flex justify-center items-center overflow-hidden">
+            <img className="w-auto h-auto min-w-72 min-h-72" src="/ib.jpg" alt="Project Image" />
+          </div>
+          {/* <img src="/b1.png" alt="Project Image" />
+          <img src="/b5.webp" alt="Project Image" /> */}
+        </div>
+      ),
+    },
+    {
+      title: "2022",
+      content: (
+        <div>
+          <h3 className="font-bold text-3xl py-3">This is a project that I have been working on.</h3>
+          <div className="grid grid-cols-2 gap-4">
+            <img src="/b1.jpg" alt="Project Image" />
+            <img src="/toolshub.png" alt="Project Image" />
+            <img src="/toolshub.png" alt="Project Image" />
+            <img src="/coin.png" alt="Project Image" />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "2023",
+      content: (
+        <div>
+          <h3 className="font-bold text-3xl py-3">This is a project that I have been working on.</h3>
+          <img src="/ib.jpg" alt="Project Image" />
+        </div>
+      ),
+    },
+  ];
   // https://drive.google.com/file/d/1EMl1e9Cc2498J7h4PyLkmLb5Gbrph3fP/view?usp=sharing
   return (
     <main className="h-[200vh] w-full bg-[#131425]">
@@ -69,7 +110,9 @@ export default function Home() {
         <HoverEffect items={content}/>
       </div>
 
-
+<div className="py-16 bg-[#131425]">
+    <Timeline data={timelineData}/>
+</div>
 <End/>
 <div className="w-full min-h-20 flex justify-center items-center py-12 bg-[#131425]">
     <HoverBorderGradient url="https://www.linkedin.com/in/-aakashsaini/" className="text-base" clockwise={true} duration={0.5} children={"Let's get in touch"} />

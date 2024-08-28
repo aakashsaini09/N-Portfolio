@@ -7,7 +7,7 @@ const {
  
 /** @type {import('tailwindcss').Config} */
 const config = {
-  darkMode: ["class"],
+  darkMode: ['variant', '&:not(.light *)'],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',

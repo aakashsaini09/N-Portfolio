@@ -99,14 +99,14 @@ export default function Home() {
     <main className="h-[200vh] w-full bg-[#131425]">
       <Hero/>
       {/* ScrollMoveText */}
-      <div className="w-full px-16 md:px-28 gap-6">
+      <div className="w-full px-16 pt-10 md:px-28 gap-6 bg-[#131425]">
         <ScrollBasedVelocityDemo/>
         <ScrollBasedVelocityDemo/>
       </div>
 
 
       {/* Resume Download button */}
-      <div className="w-full min-h-20 flex justify-center items-center my-12">
+      <div className="w-full min-h-20 flex justify-center items-center my-12 bg-[#131425]">
         <HoverBorderGradient url="https://drive.google.com/file/d/1EMl1e9Cc2498J7h4PyLkmLb5Gbrph3fP/view?usp=sharing" clockwise={true} duration={1} children={"Download Resume"} />
       </div>
 

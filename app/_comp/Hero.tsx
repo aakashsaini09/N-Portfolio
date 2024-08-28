@@ -1,6 +1,7 @@
 import Image from "next/image"
 import '../assets/style.css'
 import { FlipWords } from "../components/ui/flip-words"
+import mainlogo from '../assets/download.png'
 const Hero = () => {
   const words = ["developer", "designer"]
   return (
@@ -12,7 +13,9 @@ const Hero = () => {
         <p className="font-medium text-slate-500 text-base px-24 pt-3">I'm a pasonite Full Stack developer with a good knowledge of web3. I'm a pasonite Full Stack developer with a good knowledge of web3. I'm a pasonite Full Stack developer with a good knowledge of web3.</p>
       </div>
 
-      <div className="right w-[40%] h-[90vh] flex justify-center items-center"></div>
+      <div className="right w-[40%] h-[90vh] flex justify-center items-center">
+        <Image className="" src={mainlogo} alt="Image" width={600} height={600}></Image>
+      </div>
     </div>
   )
 }

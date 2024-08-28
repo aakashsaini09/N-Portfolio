@@ -14,6 +14,9 @@ const config = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
 	],
+  fontFamilies: {
+    montserrat: ['var(--montserrat)']
+  },
   prefix: "",
   theme: {
     container: {

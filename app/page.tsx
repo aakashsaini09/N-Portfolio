@@ -41,6 +41,12 @@ export default function Home() {
       link: "https://github.com/aakashsaini09/CodeCollab",
       img: '/codeing.png'
     },
+    {
+      title: "Portfolio",
+      description: "My personal portfolio website to showcase my work and skills.",
+      link: "https://github.com/aakashsaini09/portfolio",
+      img: '/folio.png'
+    },
   ]
   
   const timelineData = [

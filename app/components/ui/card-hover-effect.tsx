@@ -15,7 +15,7 @@ export const HoverEffect = ({items,className,}: {
     <div
       className={cn("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-[#131425] py-44",className)}>
       {items.map((item, idx) => (
-        <Link href={item?.link} key={item?.link} className="relative group flex flex-wrap p-2 h-full w-full"onMouseEnter={() => setHoveredIndex(idx)}onMouseLeave={() => setHoveredIndex(null)}>
+        <Link href={item?.link} target="_blank" key={item?.link} className="relative group flex flex-wrap p-2 h-full w-full"onMouseEnter={() => setHoveredIndex(idx)}onMouseLeave={() => setHoveredIndex(null)}>
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span className="absolute inset-0 h-full w-full bg-gray-700 dark:bg-slate-800/[0.8] block shadow-md shadow-gray-800 rounded-3xl" layoutId="hoverBackground" initial={{ opacity: 0 }}

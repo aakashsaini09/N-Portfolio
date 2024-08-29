@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aakash Saini Portfolio",
+  title: "Aakash()",
   description: "Portfolio Website || Aakash Saini",
 };
 
@@ -21,6 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="/favico.png" type="image/x-icon" />
       <body className={inter.className}>{children}</body>
     </html>
   );

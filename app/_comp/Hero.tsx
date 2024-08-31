@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="text-white font-bold text-4xl relative pl-10 md:px-24 max-w-[100vw] overflow-hidden">
           I'm a web <FlipWords words={words} className="text-purple-600"/>
         </div>
-        <p className="font-medium text-slate-500 text-base px-10 md:px-24 pt-3">I'm a pasonite Full Stack developer with a good knowledge of web3. I'm a pasonite Full Stack developer with a good knowledge of web3. I'm a pasonite Full Stack developer with a good knowledge of web3.</p>
+        <p className="font-medium text-slate-500 text-base px-10 md:px-24 pt-3">I'm a passionate Full Stack Developer with a solid grasp of DevOps. I have a keen interest in Web3 technologies and am actively expanding my expertise in this cutting-edge field.</p>
       </div>
 
       <div className="right order-1 md:order-2 overflow-hidden w-[100%] md:w-[40%] h-[70vh] md:h-[90vh] flex justify-center items-center">

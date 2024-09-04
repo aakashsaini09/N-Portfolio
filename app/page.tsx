@@ -113,7 +113,7 @@ export default function Home() {
 
       {/* Resume Download button */}
       <div className="w-full min-h-20 flex justify-center items-center my-12 bg-[#131425]">
-        <HoverBorderGradient url="https://drive.google.com/file/d/1EMl1e9Cc2498J7h4PyLkmLb5Gbrph3fP/view?usp=sharing" clockwise={true} duration={1} children={"Download Resume"} />
+        <HoverBorderGradient url="https://drive.google.com/file/d/1VFMscGSPOi5B6ofCq1BUWmMNrKO6IHVg/view?usp=sharing" clockwise={true} duration={1} children={"Download Resume"} />
       </div>
 
       <div className="px-6 md:px-28 bg-[#131425] py-20 pb-56">

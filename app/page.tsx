@@ -9,6 +9,7 @@ import End from "./_comp/End";
 import Footer from "./_comp/Footer";
 import { Timeline } from "./components/ui/timeline";
 import './assets/style.css'
+import Robot from "./components/Robot";
 export default function Home() {
   const content= [
     {
@@ -133,8 +134,9 @@ export default function Home() {
     <Timeline data={timelineData}/>
 </div>
 <End/>
-<div className="w-full min-h-20 flex justify-center items-center py-12 bg-[#131425]">
-    <HoverBorderGradient url="https://www.linkedin.com/in/-aakashsaini/" className="text-base" clockwise={true} duration={0.5} children={"Let's get in touch"} />
+<div className="w-full min-h-[50vh] flex justify-center items-center py-12 bg-[#131425]">
+    {/* <HoverBorderGradient url="https://www.linkedin.com/in/-aakashsaini/" className="text-base" clockwise={true} duration={0.5} children={"Let's get in touch"} /> */}
+    <Robot/>
 </div>
 
      <Footer/>

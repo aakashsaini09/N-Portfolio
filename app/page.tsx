@@ -18,6 +18,18 @@ export default function Home() {
       link: "https://quill-vibes.vercel.app/",
       img: '/ib.jpg'
     },
+        {
+      title: "ToolsHub",
+      description: "Get access of multiple usefull tools at one place for free.",
+      link: "https://mini-tool.netlify.app/",
+      img: '/toolshub.png'
+    },
+    {
+      title: "CodeCollab",
+      description: "Write code with your friends in real-time. Work on same Project Together.",
+      link: "https://github.com/aakashsaini09/CodeCollab",
+      img: '/codeing.png'
+    },
     {
       title: "Github Profile",
       description: "Search and View github Profile in a clean and intuitive UI",
@@ -29,18 +41,6 @@ export default function Home() {
       description: "Crypto tracking application that offers prices updates & one-year data trends.",
       link: "https://coinmonster.netlify.app/",
       img: '/coin.png'
-    },
-    {
-      title: "ToolsHub",
-      description: "Get access of multiple usefull tools at one place for free.",
-      link: "https://mini-tool.netlify.app/",
-      img: '/toolshub.png'
-    },
-    {
-      title: "CodeCollab",
-      description: "Write code with your friends in real-time. Work on same Project Together.",
-      link: "https://github.com/aakashsaini09/CodeCollab",
-      img: '/codeing.png'
     },
     {
       title: "Portfolio",
